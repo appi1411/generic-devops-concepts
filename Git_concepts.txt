@@ -1,3 +1,11 @@
+Afrer you downloaded the git bash to local:
+you have to configure git and run below commands
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name
+
 Create a directory 
 md appi
 goto thet directory and initiate a git project by:
