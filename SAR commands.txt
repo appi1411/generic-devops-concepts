@@ -1,0 +1,29 @@
+ 37  2018-11-12 20:10:47 cd /var/log/sa
+   38  2018-11-12 20:10:51 ll
+   39  2018-11-12 20:11:02 file sa*
+   40  2018-11-12 20:11:25 sar -f sa11 |less
+   41  2018-11-12 20:15:50 cat //etc/sysconfig/sysstat
+   42  2018-11-12 20:15:56 cat /etc/sysconfig/sysstat
+   43  2018-11-12 20:16:35 cd etc/sysconfig/
+   44  2018-11-12 20:16:44 cd /etc/sysconfig/
+   45  2018-11-12 20:16:47 ll
+   46  2018-11-12 20:19:32 w
+   47  2018-11-12 20:24:14 cat /proc/cpuinfo | grep -i processor
+   48  2018-11-12 20:24:22 cat /proc/cpuinfo | grep -i processor | wc -l
+   49  2018-11-12 20:24:35 12*.7
+   50  2018-11-12 20:24:43 python
+   51  2018-11-12 20:25:41 lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
+   52  2018-11-12 20:29:32 SAR -W 1 10
+   53  2018-11-12 20:30:03 sar -W 1 10
+   54  2018-11-12 20:54:23 cd -
+   55  2018-11-12 20:54:27 ls -lrt
+   56  2018-11-12 20:57:12 sar -f sa11 |vi
+   57  2018-11-12 20:57:21 sar -f sa11 | less
+   58  2018-11-12 21:01:22 sar -r 1 5
+   59  2018-11-12 21:08:23 sar -q 15
+   60  2018-11-12 21:08:28 sar -q 1 5
+   61  2018-11-12 21:14:07 sar -w 1 5
+
+
+salt-run state.sls orch.deploy_mcafee --out json >> `date '+%Y%m%d%H%M%S'`_av_deploy.json
+

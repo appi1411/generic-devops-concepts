@@ -1,0 +1,40 @@
+to yank : to copy all lines:
+
+gg"*yG
+
+and then paste using p
+
+=============================
+
+Comment and uncomment all multiple lines:
+
+Ctrl + v 
+select by using arrow key
+shift + I
+then press #
+then escp
+
+uncomment
+
+ctrl +v
+select by using arrow key
+then press d
+
+
+================================open other file in next tab =======
+
+you can open another file while vim is open with :tabe filename 
+and to switch to the other file you type :tabn or :tabp for next and previous accordingly.
+The keyboard shortcuts gT and gt can also be used to switch tabs when you are not in editing mode 
+
+
+==============split the screen ====================
+
+:split <filename>
+
+switch using ctrl - w
+
+
+
+
+

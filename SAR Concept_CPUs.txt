@@ -1,0 +1,10 @@
+lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
+
+CPU(s):                16
+Thread(s) per core:    2
+Core(s) per socket:    4
+Socket(s):             2
+
+Two physical sockets, each containing a chip with 4 physical cores, making 8 cores total. 
+Two threads get to issue instructions to each core (this machine has hyperthreading), 
+meaning there must be two CPUs attached to each core, making a total of 8 * 2 = 16 CPUs

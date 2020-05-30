@@ -1,0 +1,55 @@
+Create a directory 
+md appi
+goto thet directory and initiate a git project by:
+cd /appi
+git init
+with the above command a .git directory will be crated in you appi..
+ now do
+git add .    ( this will add all changes made to git)
+git commit -m "this is first commit"   ( means git save , take snapshot here if you want to go back in future)
+
+git log ---> give us our commit history
+
+
+git log  -- author="Bucky"   ----> check commit from specific user or author
+
+git status  ---> it says that there is no file you are working on  
+
+=============
+
+working copy >> staging (git add .) >> git commit -m "" ( togo )
+=============
+
+revert code in previous stage
+
+git revert <commit id can be fetched from git status>
+
+
+=======create branch============ 
+
+git branch <name of branch>
+
+switch branch   or git checkout -b <name of feature branch>   ---> create and switch to feature branch
+
+git checkout <name of branch>
+
+merge branch to master
+
+git merge < name of feature branch>
+
+add a remote repository:
+
+git remote add origin <url given at git account>
+
+git push -u origin.master ------> puch to master branch
+
+git push -u origin.development -------> puch to feature branch (development is the name of the feature branch)
+
+
+
+git clone <url>   ---> to download the directory 
+
+
+Git fetch sync the branch from remote to local
+
+git pull sync the files from remote to local and then you can do git push
