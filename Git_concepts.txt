@@ -3,7 +3,7 @@ md appi
 goto thet directory and initiate a git project by:
 cd /appi
 git init
-with the above command a .git directory will be crated in you appi..
+with the above command a .git directory will be crated in your dir appi..
  now do
 git add .    ( this will add all changes made to git)
 git commit -m "this is first commit"   ( means git save , take snapshot here if you want to go back in future)
